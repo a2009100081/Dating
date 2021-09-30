@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ font:normal 13px Arial, Helvetica, sans-serif; background:#270b0b;}
+body, h1,h2, h3, h4, h5, ul, li, form, p, div{ margin:0; padding:0;}
+h1{ font-size:24px; font-weight:bold;}
+.top{ background:#EA313B; height:9px;}
+
+/* Wrapper */
+.Wrapper{width:950px; margin:0 auto; position:relative;}
+
+/* Header */
+.header{ padding-top:24px;}
+
+/* Logo */
+.MainLogo{ position:absolute; top:38px; left:25px; width:400px; height:36px;}
+.MainLogo h1{ font-family: Arial, Tahoma, Verdana, sans-serif; font-weight: normal; font-size: 42px; color: #fff; margin: 0; line-height: 0.9em;}
+.MainLogo h1 span { font-family: Arial Black; font-size: 42px; color: #fff; }
+
+.slogan{ position:absolute; top:36px; right:18px; background:url(../images/slogan.png) no-repeat 0 0; width:425px; height:47px;}
+.csscurve_left{ background:url(../images/curve_top_left.png) no-repeat left; float:left; width:19px; height:62px;}
+.csscurve_repeat{ background:url(../images/curve_top_repeat.png) repeat-x left; float:left; width:912px; height:62px;}
+.csscurve_right{ background:url(../images/curve_top_right.png) no-repeat right;float:right; width:19px; height:62px;}
+
+.csscurve_btm_left{background:url(../images/curve_bottom_left.png) no-repeat left; float:left; width:19px; height:137px;}
+.csscurve_btm_repeat{background:url(../images/curve_bottom_repeat.png) repeat-x left;float:left; width:912px; height:137px;}
+.csscurve_btm_right{background:url(../images/curve_bottom_right.png) no-repeat right; float:right; width:19px; height:137px;}
+.curvecontent{width:950px; background:#D01D2B url(../images/mainbody_bg.png) repeat-x top;}
+.Cleft{ float:left; width:267px; height:423px;}
+.Ccenter{float:left;width:416px; height:423px;}
+.Cright{ float:right;width:267px; height:423px;}
+.Cright img, .Cleft img{ margin-top:36px;}
+
+/* Form */
+.Ccenter form{ text-align:center; background:url(../images/trial_pic.png) no-repeat top center; padding-top:106px;}
+.Ccenter form label{ font-size:18px; color:#FFFFFF; float:left; width:171px; margin-right:20px; text-align:right; margin-bottom:1px;}
+.Ccenter form input, .Ccenter form select{ margin-bottom:2px; float:left;}
+.Ccenter form .signin_btn{ float:none;margin:20px 0 0 45px; text-align:center;}
+
+/* Main */
+.MainBody{}
+.TextLeft{ float:left; width:488px; color:#FFFFFF; font-size:13px;}
+.TextLeft h1, .TextLeft p{ margin-top:10px;}
+.list{ padding:20px 0 0 46px; float:left;}
+.list li{ list-style:none; font-size:18px; color:#FFFFFF; padding-bottom:10px;float:left; clear:left; width:375px;}
+.list li img{ vertical-align:middle;}
+
+.clear{ clear:both; font-size:0; height:0; line-height:0;}
+ 
+ /* Footer */
+.footer{ background:url(../images/footer_bg.png) no-repeat top center; clear:both;text-align:center; padding:31px 0 20px 0; color:#515151;width:950px; margin:0 auto;}
+.footer .copyrite{ color:#808080; margin-top:40px;}
